@@ -18,10 +18,12 @@
         </activity>
 
         <service
-            android:name=".Contar"
+            android:name=".AccesoADatos"
             android:enabled="true"
             android:exported="true" />
+
     </application>
+
     <uses-permission android:name="android.permission.READ_SMS" />
 
 </manifest>
